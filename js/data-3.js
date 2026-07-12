@@ -1,0 +1,122 @@
+/* ===== Phần 3: Comparative & Superlative ===== */
+VOCAB.push(
+{id:"higher-lower", w:"higher than / lower than", vn:"cao hơn / thấp hơn", sec:3, s:[
+"Coffee consumption in Finland was far *higher than* in any other country.",
+"The unemployment rate in 2010 was *lower than* it had been in 2005.",
+"Salaries in the capital were 30% *higher than* the national average.",
+"Rainfall in the south was much *lower than* in the north.",
+"The figure for men was slightly *higher than* that for women.",
+"House prices remained *lower than* their 2007 peak for a decade.",
+"Energy use per person was *higher than* in neighbouring countries.",
+"The birth rate was *lower than* the death rate for the first time in 2019.",
+"Spending on transport was *higher than* spending on food in most households.",
+"Temperatures in January were 15 degrees *lower than* in July."]},
+
+{id:"highest-lowest", w:"the highest / the lowest", vn:"cao nhất / thấp nhất", sec:3, s:[
+"Japan had *the highest* life expectancy of all the countries shown.",
+"*The lowest* figure was recorded in 2003, at just 2%.",
+"The USA consumed *the highest* amount of energy per person.",
+"Unemployment reached its *lowest* level in over twenty years.",
+"*The highest* proportion of recycled waste was found in Germany.",
+"February had *the lowest* number of tourists, at around 5,000.",
+"Of the five sectors, agriculture employed *the lowest* number of workers.",
+"*The highest* growth rate occurred between 2005 and 2010.",
+"The city centre had *the highest* rents in the whole region.",
+"Students reported *the lowest* levels of car ownership among all groups."]},
+
+{id:"larger-smaller", w:"larger than / smaller than", vn:"lớn hơn / nhỏ hơn", sec:3, s:[
+"The service sector was far *larger than* the manufacturing sector by 2020.",
+"The gap between the two figures was much *smaller than* before.",
+"China's output was three times *larger than* that of its nearest rival.",
+"The proportion of young workers was *smaller than* in previous decades.",
+"The market for electric cars grew *larger than* anyone had predicted.",
+"Rural schools were generally *smaller than* those in the cities.",
+"The increase in 2015 was *larger than* in any other year.",
+"The share spent on entertainment was *smaller than* the share spent on housing.",
+"The female workforce was slightly *larger than* the male workforce in this sector.",
+"By the end of the period, the difference had become much *smaller than* at the start."]},
+
+{id:"more-less-popular", w:"more popular than / less popular than", vn:"phổ biến hơn / kém phổ biến hơn", sec:3, s:[
+"Swimming was *more popular than* running among older adults.",
+"Printed books became *less popular than* e-books for the first time.",
+"Cars remained far *more popular than* public transport for commuting.",
+"Cycling was *less popular than* walking in every age group.",
+"Online shopping grew *more popular than* visiting high-street stores.",
+"Tea was *more popular than* coffee in most Asian countries.",
+"Traditional television became steadily *less popular than* streaming services.",
+"Package holidays were *more popular than* independent travel among retirees.",
+"Team sports were *less popular than* individual exercise among women.",
+"By 2020, smartphones were *more popular than* laptops for browsing the internet."]},
+
+{id:"second-most", w:"the second most common", vn:"phổ biến thứ hai", sec:3, s:[
+"Walking was *the second most common* way of travelling to work.",
+"Spanish was *the second most common* language studied at school.",
+"Heart disease was *the second most common* cause of hospital admission.",
+"Gas was *the second most common* source of electricity after coal.",
+"France was *the second most* popular destination, after Spain.",
+"Plastic was *the second most common* material found in household waste.",
+"Nursing was *the second most common* career choice among female graduates.",
+"Football was *the second most* watched sport on television.",
+"Rice was *the second most* important export after coffee.",
+"Renting was *the second most common* housing arrangement among young adults."]},
+
+{id:"exceed", w:"exceed", vn:"vượt, vượt quá", sec:3, s:[
+"By 2015, online sales *exceeded* in-store sales for the first time.",
+"The number of visitors *exceeded* one million during the summer.",
+"Demand for housing far *exceeded* supply in the capital.",
+"Exports *exceeded* imports throughout the entire period.",
+"The company's profits *exceeded* expectations in every quarter.",
+"Spending on defence *exceeded* spending on education in 1985.",
+"The temperature rarely *exceeds* 25 degrees, even in summer.",
+"The figure for 2020 *exceeded* the previous record by 15%.",
+"Female enrolment *exceeded* male enrolment from 2008 onwards.",
+"The cost of the project *exceeded* the original budget by half."]},
+
+{id:"surpass", w:"surpass", vn:"vượt qua", sec:3, s:[
+"China *surpassed* the USA as the largest car market in 2009.",
+"Sales of smartphones *surpassed* those of ordinary mobile phones in 2013.",
+"The figure for wind power *surpassed* that for coal by the end of the period.",
+"Online news *surpassed* printed newspapers in popularity.",
+"By 2018, the city's population had *surpassed* five million.",
+"Streaming revenue *surpassed* CD sales for the first time in 2015.",
+"The number of female graduates *surpassed* the number of male graduates.",
+"Tourism income *surpassed* agricultural income in the final decade.",
+"Electric car sales are expected to *surpass* petrol car sales by 2035.",
+"The 2019 total *surpassed* all previous records."]},
+
+{id:"compared-with", w:"compared with / in comparison with", vn:"so với", sec:3, s:[
+"*Compared with* 1990, car ownership had doubled by 2010.",
+"*In comparison with* other countries, Japan spent little on defence.",
+"The figure was low *compared with* the European average.",
+"*Compared with* men, women spent twice as long on housework.",
+"Sales were disappointing *in comparison with* the previous year.",
+"*Compared with* rural areas, cities had far better internet access.",
+"The company performed well *in comparison with* its competitors.",
+"*Compared with* the 1980s, air travel became much cheaper.",
+"Young people exercised more *compared with* older generations.",
+"*In comparison with* January, visitor numbers in July were three times higher."]},
+
+{id:"twice-as", w:"twice as high as", vn:"cao gấp đôi", sec:3, s:[
+"The figure for the USA was *twice as high as* that for Canada.",
+"Unemployment among young people was *twice as high as* the national rate.",
+"Spending on housing was *twice as high as* spending on food.",
+"The birth rate in 1960 was *twice as high as* it was in 2000.",
+"Electricity consumption in winter was almost *twice as high as* in summer.",
+"The proportion of male smokers was *twice as high as* that of female smokers.",
+"House prices in the capital were *twice as high as* the national average.",
+"The number of visitors in August was *twice as high as* in April.",
+"Meat consumption in Europe was *twice as high as* in Asia.",
+"By 2020, the figure was more than *twice as high as* at the start of the period."]},
+
+{id:"more-than-double", w:"more than double", vn:"tăng hơn gấp đôi", sec:3, s:[
+"The number of internet users *more than doubled* between 2005 and 2015.",
+"Exports *more than doubled*, rising from $10 billion to $25 billion.",
+"The city's population *more than doubled* over the fifty-year period.",
+"Spending on healthcare *more than doubled* in real terms.",
+"The proportion of women in parliament *more than doubled* after 2000.",
+"Sales of electric vehicles *more than doubled* in a single year.",
+"The figure for overseas students *more than doubled* during the decade.",
+"Air passenger numbers *more than doubled* between 1990 and 2010.",
+"The cost of university tuition *more than doubled* in ten years.",
+"Coffee production *more than doubled*, reaching 200,000 tonnes by 2018."]}
+);

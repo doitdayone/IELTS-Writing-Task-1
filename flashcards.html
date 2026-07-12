@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IELTS Task 1 · Flashcards</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="fc-page">
+
+<div class="doodles" aria-hidden="true">
+  <span class="doodle" style="top:8%;left:4%">🃏</span>
+  <span class="doodle" style="top:14%;right:6%">🧠</span>
+  <span class="doodle" style="top:70%;left:3%">⭐</span>
+  <span class="doodle" style="top:82%;right:5%">🌈</span>
+</div>
+
+<header class="hero hero-small">
+  <div class="tape tape-hero" aria-hidden="true"></div>
+  <h1 id="heroTitle">Flashcards 🃏</h1>
+  <p class="subtitle">Lật thẻ để ôn từ vựng Task 1</p>
+  <nav class="nav">
+    <a class="btn" href="index.html">📒 Sổ tay</a>
+    <a class="btn btn-active" href="flashcards.html">🃏 Flashcards</a>
+  </nav>
+</header>
+
+<!-- Màn hình chọn phần ôn -->
+<section id="setup" class="setup">
+  <div class="setup-card">
+    <div class="tape" aria-hidden="true"></div>
+    <h2>✅ Chọn phần muốn ôn</h2>
+    <p class="setup-hint">Tick các phần bạn muốn đưa vào bộ thẻ (trong 6 phần của sổ tay):</p>
+    <div id="secPicker" class="sec-picker"></div>
+    <label class="opt-row"><input type="checkbox" id="optShuffle" checked> 🔀 Xáo trộn thứ tự thẻ</label>
+    <label class="opt-row"><input type="checkbox" id="optAutoSpeak"> 🔊 Tự động đọc từ khi hiện thẻ</label>
+    <button id="btnStart" class="btn btn-big">🚀 Bắt đầu học</button>
+    <p id="setupCount" class="setup-count"></p>
+  </div>
+</section>
+
+<!-- Màn hình học -->
+<section id="study" class="study" hidden>
+  <div class="progress-wrap">
+    <div class="progress-bar"><div id="progressFill" class="progress-fill"></div></div>
+    <p id="progressText" class="progress-text"></p>
+  </div>
+
+  <div id="card" class="fc" title="Bấm để lật thẻ (Space)">
+    <div class="fc-inner">
+      <div class="fc-face fc-front">
+        <span class="fc-label">English 🇬🇧</span>
+        <p id="fcWord" class="fc-word"></p>
+        <button id="fcSpeakFront" class="spk-big" title="Nghe phát âm">🔊</button>
+        <span class="fc-flip-hint">👆 bấm để lật</span>
+      </div>
+      <div class="fc-face fc-back">
+        <span class="fc-label">Nghĩa 🇻🇳</span>
+        <p id="fcVn" class="fc-vn"></p>
+        <p id="fcExample" class="fc-example"></p>
+        <button id="fcSpeakBack" class="spk-big" title="Nghe câu ví dụ">🔊</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="fc-controls">
+    <button id="btnAgain" class="btn btn-again">❌ Chưa thuộc</button>
+    <button id="btnGot" class="btn btn-got">✅ Đã thuộc</button>
+  </div>
+  <p class="fc-keys">⌨️ Space: lật thẻ · ←: chưa thuộc · →: đã thuộc · S: nghe</p>
+  <button id="btnQuit" class="btn btn-quit">↩ Chọn lại phần ôn</button>
+</section>
+
+<!-- Màn hình kết quả -->
+<section id="result" class="result" hidden>
+  <div class="setup-card">
+    <div class="tape" aria-hidden="true"></div>
+    <h2>🎉 Hoàn thành!</h2>
+    <p id="resultText" class="result-text"></p>
+    <div class="result-btns">
+      <button id="btnReviewUnknown" class="btn btn-big">🔁 Ôn lại từ chưa thuộc</button>
+      <button id="btnRestart" class="btn">🚀 Học lại từ đầu</button>
+      <button id="btnBackSetup" class="btn">↩ Chọn phần khác</button>
+    </div>
+  </div>
+</section>
+
+<script src="js/common.js"></script>
+<script src="js/data-1.js"></script>
+<script src="js/data-2.js"></script>
+<script src="js/data-3.js"></script>
+<script src="js/data-4.js"></script>
+<script src="js/data-5a.js"></script>
+<script src="js/data-5b.js"></script>
+<script src="js/data-6.js"></script>
+<script src="js/effects.js"></script>
+<script src="js/flashcards.js"></script>
+</body>
+</html>
